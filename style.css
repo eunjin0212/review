@@ -1,0 +1,17 @@
+body { 
+    background-color: wheat;
+    
+}
+hgroup {
+    color: teal;
+}
+div {
+    background-color: violet;
+    padding: 5px;
+    border: 2px solid red;
+    margin: 10px;
+}
+form :hover {
+    background-color: yellowgreen;
+}
+
