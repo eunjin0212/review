@@ -1,0 +1,64 @@
+2020 .08 .03
+<git hub bash>
+git add - 스테이징에 추가하기 추가 하고 싶은 부분만 추가 할 수 있음
+git add . - 스테이징에 모두 추가 
+git commit -  새로운 버전 생성
+git commit -m "...." - 커밋메세지와 함께 버전 생성  
+git commit -am "...." - add 된 것 모두 커밋
+git commit -e - 커밋 메세지 변경 
+git push - repository에 추가하기
+git pull - repository에서 가져오기 
+git log - history 확인
+git status - git 상태확인
+cd + directory - change directory > directory들어가기
+cd ~ - 홈 directory로 이동
+pwd - 현재 머물고 있는 곳
+ls - directory 파일 목록
+ls -al - 파일 목록 전부 자세히
+ls -s - 파일 목록 자세히
+ls -a - 파일 목록 모두
+ls -R - 하위의 모든 파일까지 보여줌
+/: - root directory
+./ - 현재 directory
+../ - 현재 directory의 부모 directory 가기
+.file name - 감춘 파일 보기  
+touch - 빈 파일 만들기 
+mkdir - directory 만들기 
+mv - 움직이기 move
+rm-r - 다시 이동 (remove)
+mv +원래파일명 +바꾸고 싶은 파일명 - 파일 이름 바꾸기 
+rm - 파일 삭제
+mv +파일 명 +../ -  파일명 상위폴더로 이동
+nano - text editor
+cat - text 내용 출력
+&& - 전 명령 수행후 수행하라>앞에 명령이 없을경우 실패
+git log --stat - log 자세히 보기 
+git diff - 다른점 보여주기 
+git reset --hard - 이전버전으로
+git log -p - 어디서 추가가 되었는지 알려줌 > 뭐가 문제인지 알수 있음
+git checkout - head를 바꿀 수 있음 branch 이동
+git revert - git 전 버전으로 가서 부분수정 하기
+git remote add HTTP 주소 - 저장소 지정 
+git remote -v - 주소 보기 
+clear - 모두 지우기 
+clone 주소 - 저장소에 있는 데이터 복제
+branch - 버전 관리가 가능하게 해줌 head 분리 
+같은 파일 안에 내용이 다르면 conflict 일어남 
+git log --all --graph --oneline - git log 를 모두 한 줄로 그래프 보여줌
+git commit --amend -  커밋 수정 
+git merge 
+master branch 로 이동 > git merge 병합할 head 지정 
+git push -u origin master - 처음 푸시할떄 
+git push -f origin master - 강제 푸시 (파일 손상 가능 있음)
+git fetch > git merge - 패치 후 병합 = git pull
+.git/FETCH_HEAD 에 저장 
+git fetch; git merge FETCH-HEAD -  가장 최근에 패치한 내용 병합해줌 > 신중하게 데이터를 가져올 수 있음
+git fetch - 오픈소스 프로젝트 방식일 때 필요 권한을 주지 않고도 수정 가능 
+git format -patch + 마지막 commit ID > .patch 파일 생성 
+cp ../b/*.patch . - 부모디렉토리 /b에서 확장자가 patch인 모든 파일을 현재 위치에 복사한다 
+git am -: *.patch - 하나하나 물어보는 병합
+git am -3 *patch - 3way 병합
+clone - 같은 저장소에서 작업 
+fork - 다른 저장소에서 작업 
+
+
