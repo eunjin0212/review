@@ -1,9 +1,34 @@
 2020 .08 .03
-<git hub 버전 관리>
+<git hub bash>
 git add - 스테이징에 추가하기 추가 하고 싶은 부분만 추가 할 수 있음
-git commit -  
+git add . - 스테이징에 모두 추가 
+git commit -  새로운 버전 생성
+git commit -m "...." - 커밋메세지와 함께 버전 생성  
 git push - repository에 추가하기
-git pull
-
+git pull - repository에서 가져오기 
+git log - history 확인
+git status - git 상태확인
+cd + directory - change directory > directory들어가기
+cd ~ - 홈 directory로 이동
+pwd - 현재 머물고 있는 곳
+ls - directory 파일 목록
+ls -al - 파일 목록 전부 자세히
+ls -s - 파일 목록 자세히
+ls -a - 파일 목록 모두
+ls -R - 하위의 모든 파일까지 보여줌
+/: - root directory
+./ - 현재 directory
+../ - 현재 directory의 부모 directory 가기
+.file name - 감춘 파일 보기  
+touch - 빈 파일 만들기 
+mkdir - directory 만들기 
+mv - 움직이기 move
+rm-r - 다시 이동 (remove)
+mv +원래파일명 +바꾸고 싶은 파일명 - 파일 이름 바꾸기 
+rm - 파일 삭제
+mv +파일 명 +../ -  파일명 상위폴더로 이동
+nano - text editor
+cat - text 내용 출력
+&& - 전 명령 수행후 수행하라>앞에 명령이 없을경우 실패
 2020 .08 .04
 git hub marge branch  
