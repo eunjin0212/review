@@ -1,0 +1,64 @@
+WEB
+1. HTML
+2. CSS 
+3. JavaScript
+
+1. HTML (Hyper Text Make up Languge)
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>What is HTML?</title>
+    <meta charset="utf-8" />
+    <!--한글을 보여줌-->
+    <meta content="html review" />
+    <link rel="shortcut icon" sizes="150px"
+        href="https://images.unsplash.com/photo-1569144157581-984dea473e3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" />
+    <!--홈페이지 탭 작은 아이콘-->
+</head>
+
+<body>
+    <!--본문-->
+    <cite>Hello</cite>
+    <!--인용글이나 참조글의 제목이나 출처를 이탤릭체로 표시-->
+    <ul>Hello</ul>
+    <!--부모 태그 들여쓰기-->
+    <ol>
+        <!--순서대로 리스트를 만들어줌-->
+        <li>Hello</li>
+        <li>Hello</li>
+        <!--리스트-->
+    </ol>
+    <u>Hello</u>
+    <!--밑줄-->
+    <strong>Hello</strong>
+    <!--두꺼운 글씨-->
+    <h1>Hello</h1>
+    <!--글씨 크기 (보통 제목으로 많이 씀)-->
+    <h2>Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+    <p>Hello</p>
+    <!--Paragraph tag 단락(정해진 간격)-->
+    Hello<br>
+    <!--새로운 줄 (열린 태그)-->
+    <a href="#" target="_blank">Hello</a>
+    <!--링크-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/OGFgdro160I" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!--동영상-->
+    <img src="https://images.unsplash.com/photo-1569144157581-984dea473e3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+        width="100">
+    <!--사진 넣기-->
+    <audio controls autoplay src="https://interactive-examples.mdn.mozilla.net/media/examples/t-rex-roar.mp3"></audio>
+    <!--오디오 넣기-->
+    <pre> <!--입력한대로 보여주기-->
+      Hello 
+    </pre>
+    Hello <abbr title="EunJin"> EJ </abbr>
+    <!--의미를 숨길 수 있음-->
+</body>
+
+</html>
